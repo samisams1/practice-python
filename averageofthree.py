@@ -1,8 +1,10 @@
-num1  = float(input("Please Enter first number"))
-num2 = float(input("please Enter second number"))
-num3 = float(input("please Enter third number"))
+# Step 1: Input
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
 
-sum = num1+num2+ num3
-avarage = sum/3
-print(avarage)
+# Step 2: Calculations
+average = (num1 + num2 + num3) / 3
 
+# Step 3: Output
+print("The average of the three numbers is:", average)
